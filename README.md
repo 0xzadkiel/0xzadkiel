@@ -1,4 +1,4 @@
-```
+
 Ola, I’m **Zad𐌊𐌉𐌄𐌋** 👋, a **self-taught Cybersecurity student**.  My main areas of focus are:
 
 - **Red-Teaming** 🧠
@@ -20,8 +20,7 @@ Right now, I’m working on earning my **PNPT** (Practical Network Penetration T
 Feel free to reach out:
 
 **Email:** [0xzadkiel@tutanota.com] ✉️
-**PGP Key:**
-```
+**PGP Key:** ```
 [
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -74,5 +73,5 @@ QOKyGmDwIlUMUmmEAU5XrHYdOAj6SdlP6VmbWK4K1NmHOAeaNyb/0wifmxN4FG43
 H9BZGbPs2o8nhj6EpcljJvleM62PD6rOPGpaV7YdBJm32mbropsf5oirgV4=
 =netY
 -----END PGP PUBLIC KEY BLOCK----- 
-]
-```🔑
+] 🔑
+```
