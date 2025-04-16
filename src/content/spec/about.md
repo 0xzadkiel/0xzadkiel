@@ -15,5 +15,6 @@ Currently learning through hands-on labs, CTFs, Books and open-source projects.
 This site is where I document my learning, projects, and thoughts.
 
 Feel free to reach out: 
+
 **Email:** [0xzadkiel@tutanota.com]  
 **Discord:**[@0xzadkiel]
