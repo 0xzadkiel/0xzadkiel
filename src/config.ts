@@ -64,7 +64,7 @@ export const profileConfig: ProfileConfig = {
     },
     {
       name: 'Email',
-      icon: 'fa6-brands:envelope',
+      icon: 'fa6-solid:envelope',
       url: 'mailto: 0xzadkiel@tutanota.com',
     },
     {
