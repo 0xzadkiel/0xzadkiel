@@ -10,7 +10,7 @@ Here’s a quick rundown of the languages I work with:
 - **C** 🖥️
 - **x86-64 Assembly** 🏗️
 - **Bash** 🐚
-- **SQL** 🗃️ (currently learning to enhance my database exploitation abilities)
+- **SQL** 🗃️
 - **RISC-V** 🔧 (currently learning to get  a deeper understanding of low-level systems)
 
 ### Current Goals & Achievements
