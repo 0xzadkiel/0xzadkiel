@@ -34,7 +34,7 @@ But here's the good news: understanding cybersecurity isn't just for geeks in da
 *   64% of Americans have experienced a data breach
 *   The average ransom payment is now $1.5 million
 *   Your smart fridge could be mining Bitcoin for hackers
-![Cover image](/images/cover.webp)
+![Cover image](/images/coverimg.webp)
 ### 🛡️ Cybersecurity 101: The Nuts and Bolts
 
 1.  The Attack Surface (Where You're Vulnerable)
