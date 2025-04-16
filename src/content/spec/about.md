@@ -1,6 +1,6 @@
 Ola, I’m **Zad𐌊𐌉𐌄𐌋** 👋, a **self-taught Cybersecurity student**. My main areas of focus are:
 
-+ **Red-Teaming** 🧠 
+- **Red-Teaming** 🧠
 - **Exploit Development** ⚙️ 
 - **Network Exploitation** 🌐
 
