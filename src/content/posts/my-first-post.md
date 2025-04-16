@@ -1,9 +1,10 @@
-title: "🧠 Introduction to Cybersecurity: The Hacker Mindset"
-description: "A beginner-friendly walkthrough into hacking, red teaming, and the mindset behind cybersecurity."
+---
+title: "Introduction to Cybersecurity 🔐"
+published: true
+description: "A beginner-friendly introduction to cybersecurity and ethical hacking."
+tags: ["cybersecurity", "hacking", "infosec"]
+image: "https://images.unsplash.com/photo-1605902711622-cfb43c4437d3?auto=format&fit=crop&w=1350&q=80"
 pubDate: 2025-04-16
-image: "https://images.unsplash.com/photo-1614064641938-cf4f3f3e28ec?auto=format&fit=crop&w=1350&q=80" # Featured image
-tags: ["cybersecurity", "hacking", "red teaming", "basics"]
-draft: false
 ---
 
 > 💡 _"Hackers don't break systems. They break assumptions."_ — Unknown
