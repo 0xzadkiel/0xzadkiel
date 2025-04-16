@@ -1,9 +1,13 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+**Ola, I’m Zad𐌊𐌉𐌄𐌋 👋**, a **self-taught Cybersecurity student**.  
+My main areas of focus are:
 
-::github{repo="saicaca/fuwari"}
+- **Red-Teaming** 🧠  
+- **Exploit Development** ⚙️  
+- **Network Exploitation** 🌐  
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+I'm passionate about offensive security, ethical hacking, and diving deep into systems to understand how they break — and how to secure them.
+
+Currently learning through hands-on labs, CTFs, and open-source projects.  
+This site is where I document my learning, projects, and thoughts.
+
+Feel free to connect with me on [GitHub](https://github.com/YOUR_USERNAME) or follow my work on [Twitter](https://twitter.com/YOUR_HANDLE).
