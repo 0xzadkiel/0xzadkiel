@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/zadkiel_profile.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: '0xZadkiel',
-  bio: 'Ola, I’m Zad𐌊𐌉𐌄𐌋 👋, a self-taught Cybersecurity student.\nMy main areas of focus are:\n- Red-Teaming 🧠\n- Exploit Development ⚙️\n- Network Exploitation 🌐',
+  bio: 'Bytes|Of|Dirty|Code',
   links: [
     {
       name: 'Twitter',
