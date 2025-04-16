@@ -57,14 +57,14 @@ export const profileConfig: ProfileConfig = {
   links: [
     {
       name: 'Discord - 0xZadkiel',
-      icon: 'fa6-brands fa-discord',       // Visit https://icones.js.org/ for icon codes
+      icon: 'fa6-brands:discord',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://discord.com',
     },
     {
       name: 'Email',
-      icon: 'fa6-brands fa-envelope',
+      icon: 'fa6-brands:envelope',
       url: 'mailto: 0xzadkiel@tutanota.com',
     },
     {
