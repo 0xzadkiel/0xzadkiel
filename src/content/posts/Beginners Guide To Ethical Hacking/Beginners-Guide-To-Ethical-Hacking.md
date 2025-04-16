@@ -1,10 +1,13 @@
 ---
 title: "🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻"
 published: 2024-01-15
-cover_image: "https://images.unsplash.com/photo-1560253023-3ec5d502959f"
+image: "./cover.png"
 tags: ["cybersecurity", "ethical-hacking", "infosec"]
 category: "Beginners guide"
 ---
+
+> Cover image source: [Source](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
 
    🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻 
 
