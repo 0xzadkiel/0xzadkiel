@@ -22,5 +22,4 @@ This site is where I document my learning, projects, and thoughts.
 
 Feel free to reach out: 
 
-**Email:** [0xzadkiel@tutanota.com]
-**Discord:**[@0xzadkiel]
+
