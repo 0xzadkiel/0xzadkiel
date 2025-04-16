@@ -1,9 +1,9 @@
 ---
 title: "Introduction to Hacking: A Beginner's Guide to Ethical Hacking 🖥️"
-published: "2025-04-16"
+published: 2025-04-16
 description: "A comprehensive beginner's guide to hacking and ethical hacking practices."
 tags: [Hacking, Cybersecurity, Technology, Ethical Hacking]
-category: "Technology"
+category: "Guide to Hacking"
 draft: false
 ---
 
