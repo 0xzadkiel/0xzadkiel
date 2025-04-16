@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Cybersecurity 🔐"
-published: true
+published: 2025-04-16
 description: "A beginner-friendly introduction to cybersecurity and ethical hacking."
 tags: ["cybersecurity", "hacking", "infosec"]
 image: "https://images.unsplash.com/photo-1605902711622-cfb43c4437d3?auto=format&fit=crop&w=1350&q=80"
