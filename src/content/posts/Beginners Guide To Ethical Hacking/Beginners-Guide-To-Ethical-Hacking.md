@@ -10,7 +10,7 @@ draft: false
 
 
 
-   🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻 
+   🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners
 
 🌐 Welcome to the Digital Battlefield
 =====================================
