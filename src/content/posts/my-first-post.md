@@ -1,6 +1,6 @@
 ---
 title: "🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻"
-published: "2024-01-15"
+published: 2024-01-15
 cover_image: "https://images.unsplash.com/photo-1560253023-3ec5d502959f"
 tags: ["cybersecurity", "ethical-hacking", "infosec"]
 category: "Cybersecurity"
@@ -43,7 +43,7 @@ But here's the good news: understanding cybersecurity isn't just for geeks in da
 *   Zero-Days: 5%
 
 3.  Defense Layers That Actually Work
-    *   Firewalls (Your digital bouncer)
+    *   Firewalls (Your digital bouncer)12
     *   MFA (Multi-factor authentication)
     *   Encryption (Scrambling your data)
     *   SOC Teams (Security Operations Center)
