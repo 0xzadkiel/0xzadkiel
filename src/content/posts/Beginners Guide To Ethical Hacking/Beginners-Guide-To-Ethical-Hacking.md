@@ -4,6 +4,7 @@ published: 2024-01-15
 image: "./cover.png"
 tags: ["cybersecurity", "ethical-hacking", "infosec"]
 category: "Beginners guide"
+draft: true
 ---
 
 
