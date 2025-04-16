@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/zadkiel_profile.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Zad𐌊𐌉𐌄𐌋',
-  bio: 'Bytes|Of|Dirty|Code',
+  bio: 'Bytes | Of | Dirty | Code\ndiscord:@0xzadkiel\nEmail:0xzadkiel@tutanota.com',
   links: [
     {
       name: 'Discord - 0xZadkiel',
@@ -65,7 +65,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Email',
       icon: 'fa6-solid:envelope',
-      url: 'mailto: 0xzadkiel@tutanota.com',
+      url: 'mailto:0xzadkiel@tutanota.com',
     },
     {
       name: 'GitHub',

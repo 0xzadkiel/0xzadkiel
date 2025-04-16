@@ -6,7 +6,7 @@ tags: ["cybersecurity", "ethical-hacking", "infosec"]
 category: "Beginners guide"
 ---
 
-> Cover image source: [Source](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+![Cover image](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
 
    🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻 
