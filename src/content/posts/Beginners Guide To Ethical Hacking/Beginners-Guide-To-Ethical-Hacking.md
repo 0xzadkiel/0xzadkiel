@@ -6,7 +6,7 @@ tags: ["cybersecurity", "ethical-hacking", "infosec"]
 category: "Beginners guide"
 ---
 
-![Cover image](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
 
 
    🔓 Breaking Into Cybersecurity: A Real-World Guide for Beginners (2024) 💻 
@@ -34,7 +34,7 @@ But here's the good news: understanding cybersecurity isn't just for geeks in da
 *   64% of Americans have experienced a data breach
 *   The average ransom payment is now $1.5 million
 *   Your smart fridge could be mining Bitcoin for hackers
-
+![Cover image](/images/cover.webp)
 ### 🛡️ Cybersecurity 101: The Nuts and Bolts
 
 1.  The Attack Surface (Where You're Vulnerable)
