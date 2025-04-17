@@ -4,7 +4,7 @@ published: 2025-04-18
 image: "./cover.png"
 tags: ["OSINT"]
 category: "Guide"
-draft: true
+draft: false
 ---
 
 Open source intelligence is a skill that ones develop over time . The thought process is what's important not the tools or the website at disposal . Osint is about gaining a piece of information like a piece in a puzzle and discovering the whole puzzle and it's pieces .
