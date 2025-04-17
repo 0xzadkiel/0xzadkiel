@@ -8,7 +8,7 @@ category: "Guide"
 draft: true
 ---
 
-![[cover.png]]
+
 
 Open source intelligence is a skill that ones develop over time . The thought process is what's important not the tools or the website at disposal . Osint is about gaining a piece of information like a piece in a puzzle and discovering the whole puzzle and it's pieces . 
 We might get a picture or a username etc ... Key is to find any reliated information  we can find on that piece of infomration and chain it together to make sense of things . Everything is out there we just have to look at the right place with the right eye to find it . 
@@ -16,7 +16,7 @@ We might get a picture or a username etc ... Key is to find any reliated informa
 + [A brief History of Open source Intelligence](https://www.bellingcat.com/resources/articles/2016/07/14/a-brief-history-of-open-source-intelligence/)
 
 ## Sock Puppets
-![[2025-04-18_00-58.png]]
+![[/images/2025-04-18_00-58.png]]
 Sock puppets is a terminology used for a Fake identity created on the internet . It can be social media accounts for example . Key is to make them look as authentic as possible so they can be used later for compeigns . 
 
 Resources : 
@@ -27,7 +27,7 @@ Resources :
 
 
 ## Search engines
-![[Seer-Interactive-Crawling-3.webp]]
+![[/images/Seer-Interactive-Crawling-3.webp]]
 
 Search engine is the best tool for any OSINT expert . Search engines are not as plain as people use it . We have functions and filters that we can use that can sort the results according to our desire . This filters can be based on date,heading,title or even text . 
 Different search engines will give you different results for the same search so it's always a good idea to use multiple search engines . 
@@ -63,7 +63,7 @@ Example : Integrated Dell Remote Access Controllers in USA that are on the inter
 
 
 ## Social media
-![[2025-04-18_00-47.png]]
+![[/images/2025-04-18_00-47.png]]
 
 Social media is a Gold mine of information . People post stuff and forget about what impact that piece of information can have on there lifes . A careless user is his worse enemy . 
 This can be a person posting name of there dog or fav basketball team  and looking at recent events we can see that most people use combination of those and few other basic informations on them in there passwords which can lead to someone cracking there passwords . Or creating a phishing link according to there interest
@@ -110,7 +110,7 @@ Snapchat dosen't have much to it however we have maps.snapchat.com which can fil
 
 
 ## Physical OSINT
-![[2025-04-18_00-52.png]]
+![[/images/2025-04-18_00-52.png]]
 Let's say you are a Pentester or a Red-teamer and you have to physically break into an organization . We should know few things before we proceed such as the layout of the building . Security posture of the company . Probable holes and how to exploit them . 
 
 Example : Let's say we are performing OSINT on an organization and from doing osint on there social medias we found few of there employee and one of them posted a badge and we also searched for near  by restaurants and coffee shops and we found few reviews from the employees of that company about the coffee shop . Now we can craft a Phishing email or we can proceed with our physical osint and perhaps get a RFID scanner and go to that coffee shop ourselves and see if we can get some badges and break into the building that way . From Looking at google maps we already know the layout of the building and we know how the employees usually dress from certain departments and from social media we know who is the head of that department and who "Our coworkers" will be . 
@@ -119,7 +119,7 @@ Example : Let's say we are performing OSINT on an organization and from doing os
 
 
 ## Image OSINT
-![[Image.png]]
+![[/images/Image.png]]
 There is a popular saying " Image Speaks a thousand words" and there is truth in that . Images can reveal alot to the right eye . People are to careless about what they post on the internet . 
 
 There are 2 major things an an image 
