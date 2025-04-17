@@ -5,7 +5,7 @@ published: 2025-04-18
 image: "./cover.png"
 tags: ["OSINT"]
 category: "Guide"
-draft: false
+draft: true
 ---
 
 ![[cover.png]]
