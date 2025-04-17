@@ -50,7 +50,7 @@ Such search engines are :
 These search engines have  a similar layout we can search for Ip-address and few other key components and filter results based on vulnerabilities , Open ports , Running services , Location and etc ...
 
 Example : Integrated Dell Remote Access Controllers in USA that are on the internet .
-![Cover image1](/images/Pasted image 20250417234841.png)
+![Cover image1](/images/2025-04-18_01-49.png)
 
 ## Social media
 ![Cover image2](/images/2025-04-18_00-47.png)
@@ -105,9 +105,7 @@ There are 2 major things an an image
 Metadata is usually removed when a image is posted on a social media platforms , However if we get a picture otherwise we might have a chance on getting our hands on this metadata. This is what the device includes in the image . It can be things such as GPS Coordinates , Device Name and Model that took the image etc ...
 
 On the other hand image itself can reveal alot of information. We can put the image in reverse image search to see where it's been posted before we can focus on a certian building , cars plate numbers , boards and signs  in the background and see where it's located at to get the location of where the image was taken . Recently a game called Geoguesser as been really popular if you wanna polish your skills on guessing locations from images .
-+ [GeoGuessr](https://
-
-www.geoguessr.com/)
++ [GeoGuessr](https://www.geoguessr.com/)
 
 ---
 ## Resources
