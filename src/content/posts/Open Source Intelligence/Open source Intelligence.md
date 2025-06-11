@@ -12,7 +12,8 @@ We might get a picture or a username etc ... Key is to find any reliated informa
 
 + [A brief History of Open source Intelligence](https://www.bellingcat.com/resources/articles/2016/07/14/a-brief-history-of-open-source-intelligence/)
 
-## Sock Puppets
+---
+# Sock Puppets
 ![Cover image](/images/2025-04-18_00-58.png)
 Sock puppets is a terminology used for a Fake identity created on the internet . It can be social media accounts for example . Key is to make them look as authentic as possible so they can be used later for compeigns.
 
@@ -20,7 +21,8 @@ Resources :
 + [The Art Of The Sock](https://www.secjuice.com/the-art-of-the-sock-osint-humint/)
 + [Creating an Effective Sock Puppet for OSINT Investigations – Introduction – Jake Creps](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/)
 
-## Search engines
+---
+# Search engines
 ![Cover image0](/images/Seer-Interactive-Crawling-3.webp)
 
 
@@ -40,7 +42,8 @@ Some of the common Filters in the search engines are
 + inurl (where the url matches your definiation )
 + intext ( where text matches your criteria )
 
-## IOT Search Engines
+---
+# IOT Search Engines
 We also have search engines that are not meant for websites but rather IOT devices and internet of things . We can search for Servers , Power plants , Industrial control system and so much more with them .
 
 Such search engines are :
@@ -53,7 +56,8 @@ These search engines have  a similar layout we can search for Ip-address and few
 Example : Integrated Dell Remote Access Controllers in USA that are on the internet .
 ![Cover image1](/images/2025-04-18_01-49.png)
 
-## Social media
+---
+# Social media
 ![Cover image2](/images/2025-04-18_00-47.png)
 
 Social media is a Gold mine of information . People post stuff and forget about what impact that piece of information can have on there lifes . A careless user is his worse enemy .
@@ -61,7 +65,7 @@ This can be a person posting name of there dog or fav basketball team  and looki
 
 We'll cover few popular social media sites and how we can use them for our osint
 
-**Twitter**
+## Twitter
 Twitter is by far one of my fav platform when it comes to osint . People Post about there opinions and usually follow people who are like minded and approve of there opinions on things which reveals alot already . But twitter also has some nice search filters that we can use to gather information on a user .
 
 - **`"exact phrase"`** – Find tweets verbatim (e.g., `"my birthday is"`).
@@ -71,31 +75,37 @@ Twitter is by far one of my fav platform when it comes to osint . People Post ab
 
 As you can see twitter gives us alot to play with without even forcing us to follow that person so it's all passive .
 
-**Facebook**
+---
+## Facebook
 Facebook also has some nice search terms included in there search bar . These are filters such as people from specfic location , Degree , Schools , Events  etc ...
 
 We can use the facebook search bar itself or we can use this site :
 + https://intelx.io/tools?tab=facebook
 
-**Tiktok & Instagram**
+
+
+## Tiktok & Instagram
 There isn't much we can do on these platforms if a profile is private . We can try sending them request and if they accept them we can then see who they follow and there content . But we still get the Profile picture they use . There username and there bio which might include some other information that can lead us to something more interesting .
 Instagram search bar also dosen't have any search filters We have general # to see a specfic trend filter and @ to see specfic usernames anmd "" to get the exact result if it exists .
 
-**Reddit**
+
+## Reddit
 Reddit is also very uesfull due to it's history features . People usually forget about the posts the commented on or what they posted in a thread . but a simple go through on there profile can show us there comment and post history . It is very valuable to us and i'll explain it to you by an example  because why not .
 
 Example : Let's say we have a username that we want to perform osint on and we put it in oone of our site to see if it exists on certian sites and we got a positive match for reddit and instagram . There instagram is private however  We visit there reddit profile . We can also confirm that it's them based on there interests which we can get the idea of based on there thread history or maybe they have the same profile picture as on instagram or bio . We can see how they type , When they are online and what communities they are part of which can make one with enough effort and time very close to that human being . It can be a stalker which now joins the communities that you are part of showing interest and later adding you as a friend and start to chat with you based on interest he knows you have because of your thread history and your opinions on stuff based on your comment history
 
-**Snapchat**
+## Snapchat
 Snapchat dosen't have much to it however we have maps.snapchat.com which can filter snaps based on a certain given area . To see snaps from a certain user we have to add them
 
-## Physical OSINT
+---
+# Physical OSINT
 ![Cover image3](/images/2025-04-18_00-52.png)
 Let's say you are a Pentester or a Red-teamer and you have to physically break into an organization . We should know few things before we proceed such as the layout of the building . Security posture of the company . Probable holes and how to exploit them .
 
 Example : Let's say we are performing OSINT on an organization and from doing osint on there social medias we found few of there employee and one of them posted a badge and we also searched for near  by restaurants and coffee shops and we found few reviews from the employees of that company about the coffee shop . Now we can craft a Phishing email or we can proceed with our physical osint and perhaps get a RFID scanner and go to that coffee shop ourselves and see if we can get some badges and break into the building that way . From Looking at google maps we already know the layout of the building and we know how the employees usually dress from certain departments and from social media we know who is the head of that department and who "Our coworkers" will be .
 
-## Image OSINT
+---
+# Image OSINT
 ![Cover image](/images/Image.png)
 There is a popular saying " Image Speaks a thousand words" and there is truth in that . Images can reveal alot to the right eye . People are to careless about what they post on the internet .
 
@@ -109,7 +119,7 @@ On the other hand image itself can reveal alot of information. We can put the im
 + [GeoGuessr](https://www.geoguessr.com/)
 
 ---
-## Resources
+# Resources
 
 **Email**
 + [Find email addresses and send cold emails • Hunter](https://hunter.io/)
@@ -154,7 +164,8 @@ On the other hand image itself can reveal alot of information. We can put the im
 + https://www.osinttechniques.com/osint-tools.html
 + [BGP.Tools](https://bgp.tools/)
 
-## Suggestions
+---
+# Suggestions
 Learn scripting so you can automate stuff or heck use Deepseek or chatgpt to create scripts for you  . With time you will develop your own methodology and collection of scripts and tools that work for you the best . Never stop learning and if you are serious about OSINT . My personal recommendation is for you to consider reading this book .
 
 + [OSINT Techniques  by Michael Bazzell](https://inteltechniques.com/book1.html)
