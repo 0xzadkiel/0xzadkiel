@@ -7,7 +7,7 @@ category: "Guide"
 draft: false
 ---
 
-## What are kernel modules ? 
+# What are kernel modules ? 
 Linux kernel modules aka (LKMS) are loadable pieces of code (think of them as plugins) that can be loaded/unloaded on demand without rebooting the linux kernel as well as allowing us to update drivers without restarting . Hence making the linux kernel light weight and faster to boot in comparison to them being complied into it as well as it makes it more memory sufficient because only loaded modules consume memory .
 
 Linux kernel module reside in `/lib/modules/` and use `.ko` extension ,We are not required to have a module in this directory in order to load it.
@@ -20,24 +20,24 @@ Linux kernel module reside in `/lib/modules/` and use `.ko` extension ,We are no
     - **Networking**: VPN modules like `tun.ko`.
 
 
+---
 
 
+# Interacting with kernel modules 
 
-## Interacting with kernel modules 
-
-**Finding existing modules**
+### Finding existing modules
 ```bash
 ls -l /lib/modules/$(uname -r)/*
 ```
 
-**Viewing Loaded modules**
+### Viewing Loaded modules
 ```bash
 lsmod | less
 ```
 
 ![Cover image0](/images/lsmod.png)
 
-**Inspecting module details**
+### Inspecting module details
  ```bash
  modinfo bluetooth
 ```
@@ -46,9 +46,9 @@ lsmod | less
 
 
 
+---
 
-
-## Writing your own kernel module 
+# Writing your own kernel module 
 Although Linux kernel modules are written in C they are different then your user-space programs because linux kernel dosen't use standard `glibc`
 library (which includes functions such as `printf`) due to it being not available in the kernel space .
 However the naming convention is very similar e.g : 
@@ -87,9 +87,10 @@ clean:
 
 We can now compile our code using `make` in the directory our code file resides in.
 
+---
 
 
-## Loading & Unloading modules 
+# Loading & Unloading modules 
 
 To load and unload kernel modules we can use utilities such as :
 1. **`insmod`**
@@ -100,14 +101,18 @@ The difference between `Insmod/rmmod` and `modprobe` is that modprobe can do dep
 
 So when we load a module using `insmod` it won't automatically load another module even if that is a dependency for the current module, Instead it will through and error . On the other side `modprobe` will do the opposite .
 
-**Loading**
+
+
+### Loading
 ```bash
 insmod custommodule.ko
 ```
 Output in dmesg : 
 ![Cover image2](/images/insmod.png)
 
-**Unloading**
+
+
+### Unloading
 ```bash
 rmmod custommodule
 ```
@@ -119,13 +124,13 @@ Output in dmesg :
 
 
 
+---
 
-
-### Debugging issues 
+# Debugging issues 
 Here we are common issues that we can face when dealing with linux kernel modules . 
 
 
-**Unknown symbol in module**
+### Unknown symbol in module
 This error accurs when a function or a variable is exported by another module and that module isn't loaded (dependency issue) . This can be resolved by simply using `modinfo` to check the dependency modules and loading them using either `modprobe` or `insmod` 
 
 ```bash
@@ -135,18 +140,22 @@ Output:
 ![Cover image4](/images/modprobe.png)
 
 
-####Module won't unload
+
+
+### Module won't unload
 Error such as  `Error : Module is in use`
 This can be due to modules resources are still open (e.g /proc entries)
 
-####Invalid module format
+
+
+### Invalid module format
 This happens due to kernel version mismatch or kernel abi mismatch .
 We can simply recompile against the current kernel header by using `make` with our code again 
 
 
+---
 
-
-## Security tools in the linux kernel  
+# Security tools in the linux kernel  
 + **`Selinux`**
 + **`Apparmor`**
 + **`EBPF`**
@@ -158,7 +167,7 @@ In order to understand these systems we have to understand different security le
 
 
 
-### Selinux
+## Selinux
 This is a (mac) system intergrated into the linux kernel and was developed by `NSA` , It enforces strict policies that define how processes and users interact with files , directories and network ports
 
 **Modes**
@@ -198,7 +207,7 @@ sudo semanage port -l
 
 
 
-### Apparmor
+## Apparmor
 
 This is a `Linux security module` (LSM) that provides Application-level `mac` via profiles and its a `kernel module.
 Unlike `selinux` , it uses path-based restrictions rather than labels . 
@@ -231,7 +240,7 @@ aa-genprof /usr/bin/chromium
 
 
 
-### EBPF 
+## EBPF 
 EBPF stands for Exnteded berkeley packet filter and is a kernel-level virtual machine allowing sandboxed programs to run without modifying the linux kernel . It also includes Dynamic tracing  (Monitor network traffic , function calls , syscalls)
 
 For usage refer to  : https://ebpf.io/what-is-ebpf/ 
