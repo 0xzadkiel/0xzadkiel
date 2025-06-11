@@ -89,7 +89,7 @@ We can now compile our code using `make` in the directory our code file resides 
 
 
 
-### Loading & Unloading modules 
+## Loading & Unloading modules 
 
 To load and unload kernel modules we can use utilities such as :
 1. **`insmod`**
@@ -135,18 +135,18 @@ Output:
 ![Cover image4](/images/modprobe.png)
 
 
-**Module won't unload**
+####Module won't unload
 Error such as  `Error : Module is in use`
 This can be due to modules resources are still open (e.g /proc entries)
 
-**Invalid module format**
+####Invalid module format
 This happens due to kernel version mismatch or kernel abi mismatch .
 We can simply recompile against the current kernel header by using `make` with our code again 
 
 
 
 
-### Security tools in the linux kernel  
+## Security tools in the linux kernel  
 + **`Selinux`**
 + **`Apparmor`**
 + **`EBPF`**
@@ -158,7 +158,7 @@ In order to understand these systems we have to understand different security le
 
 
 
-#### Selinux
+### Selinux
 This is a (mac) system intergrated into the linux kernel and was developed by `NSA` , It enforces strict policies that define how processes and users interact with files , directories and network ports
 
 **Modes**
@@ -198,7 +198,7 @@ sudo semanage port -l
 
 
 
-#### Apparmor
+### Apparmor
 
 This is a `Linux security module` (LSM) that provides Application-level `mac` via profiles and its a `kernel module.
 Unlike `selinux` , it uses path-based restrictions rather than labels . 
@@ -231,7 +231,7 @@ aa-genprof /usr/bin/chromium
 
 
 
-#### EBPF 
+### EBPF 
 EBPF stands for Exnteded berkeley packet filter and is a kernel-level virtual machine allowing sandboxed programs to run without modifying the linux kernel . It also includes Dynamic tracing  (Monitor network traffic , function calls , syscalls)
 
 For usage refer to  : https://ebpf.io/what-is-ebpf/ 
@@ -240,7 +240,10 @@ For usage refer to  : https://ebpf.io/what-is-ebpf/
 
 
 
-##### Resources :
+---
+
+
+## Resources :
 + [Linux Kernel Modules](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html )
 + [The LKM programming guide](https://sysprog21.github.io/lkmpg/)
 + [EBPF Guide](https://github.com/mikeroyal/eBPF-Guide )
