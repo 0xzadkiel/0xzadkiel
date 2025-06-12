@@ -153,6 +153,10 @@ This happens due to kernel version mismatch or kernel abi mismatch .
 We can simply recompile against the current kernel header by using `make` with our code again 
 
 
+### Visual representation of a module getting loaded 
+
+![Cover image13](/images/diagram.png)
+
 ---
 
 # Security tools in the linux kernel  
