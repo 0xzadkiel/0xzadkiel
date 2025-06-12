@@ -20,6 +20,7 @@ Linux kernel module reside in `/lib/modules/` and use `.ko` extension ,We are no
     - **Networking**: VPN modules like `tun.ko`.
 
 
+
 ---
 
 
@@ -121,7 +122,9 @@ Output in dmesg :
 
 
 
+### Visual representation of a Module getting loaded 
 
+![Cover image13](/images/Diagram.png)
 
 
 ---
@@ -153,9 +156,7 @@ This happens due to kernel version mismatch or kernel abi mismatch .
 We can simply recompile against the current kernel header by using `make` with our code again 
 
 
-### Visual representation of a Module getting loaded 
 
-![Cover image13](/images/Diagram.png)
 
 ---
 
