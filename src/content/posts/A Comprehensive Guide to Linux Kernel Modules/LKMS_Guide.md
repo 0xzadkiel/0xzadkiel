@@ -8,9 +8,9 @@ draft: false
 ---
 
 # What are kernel modules ? 
-Linux kernel modules aka (LKMS) are loadable pieces of code (think of them as plugins) that can be loaded/unloaded on demand without rebooting the linux kernel as well as allowing us to update drivers without restarting . Hence making the linux kernel light weight and faster to boot in comparison to them being complied into it as well as it makes it more memory sufficient because only loaded modules consume memory .
+Linux kernel modules (LKMs) are loadable pieces of code think of them as plugins that can be added or removed from the Linux kernel on demand, without requiring a reboot. This allows updates to drivers without restarting the system, making the Linux kernel more lightweight and quicker to boot. It’s also more memory-efficient, as only the loaded modules consume memory, unlike when all drivers are compiled directly into the kernel.
 
-Linux kernel module reside in `/lib/modules/` and use `.ko` extension ,We are not required to have a module in this directory in order to load it.
+Kernel modules are typically stored in /lib/modules/ and have a .ko (kernel object) file extension. However, a module doesn't need to reside in this directory to be loaded.
 
 - **Types of Modules**:
 
@@ -50,10 +50,9 @@ lsmod | less
 ---
 
 # Writing your own kernel module 
-Although Linux kernel modules are written in C they are different then your user-space programs because linux kernel dosen't use standard `glibc`
-library (which includes functions such as `printf`) due to it being not available in the kernel space .
-However the naming convention is very similar e.g : 
-`printf` is `printk`
+Although Linux kernel modules are written in C, they differ from user-space programs because the Linux kernel does not use the standard C library `(glibc)`. Functions like printf are unavailable in kernel space, as glibc is designed for user-space applications and is not accessible from within the kernel.
+
+However, the naming conventions in the kernel are often similar. For example, printf in user space has a kernel equivalent called printk.
 
 
 Here's a example of a linux kernel module that prints our given text in `dmesg` : 
@@ -98,9 +97,9 @@ To load and unload kernel modules we can use utilities such as :
 2. **`rmmod`**
 3. **`modprobe`**
 
-The difference between `Insmod/rmmod` and `modprobe` is that modprobe can do dependency handling while `insmod/rmmod` can't . Dependency handling refers to how the linux kernel loads other modules that a module depends on in order to function properly . These can be `hardware`,`drivers` etc ...
+The key difference between insmod/rmmod and modprobe is that modprobe can handle module dependencies, whereas insmod and rmmod cannot. Dependency handling means that the kernel automatically loads any additional modules required for a given module to function properly—such as hardware drivers or other kernel components.
 
-So when we load a module using `insmod` it won't automatically load another module even if that is a dependency for the current module, Instead it will through and error . On the other side `modprobe` will do the opposite .
+When you use insmod to load a module, it does not automatically load its dependencies. If a required module is missing, insmod will fail and return an error. In contrast, modprobe will detect and load all necessary dependencies before loading the target module, ensuring proper functionality.
 
 
 
