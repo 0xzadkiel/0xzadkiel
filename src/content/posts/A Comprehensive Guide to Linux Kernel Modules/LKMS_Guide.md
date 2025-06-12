@@ -111,6 +111,10 @@ insmod custommodule.ko
 Output in dmesg : 
 ![Cover image2](/images/insmod.png)
 
+**Visual representation of a Module getting loaded** 
+
+![Cover image13](/images/Diagram.png)
+
 
 
 ### Unloading
@@ -122,9 +126,9 @@ Output in dmesg :
 
 
 
-### Visual representation of a Module getting loaded 
+**Visual representation of a Module getting unloaded**
 
-![Cover image13](/images/Diagram.png)
+![Cover image14](/images/Diagram2.png)
 
 
 ---
