@@ -1,7 +1,7 @@
 ---
 title: "A Comprehensive Guide to Linux Kernel Modules"
 published: 2025-06-11
-image: "./cover1.png"
+image: "./123.gif"
 tags: ["Linux"]
 category: "Guide"
 draft: false
@@ -128,7 +128,7 @@ Output in dmesg :
 
 **Visual representation of a Module getting unloaded**
 
-![Cover image14](/images/Diagram2.png)
+![Cover image114](/images/Diagram2.png)
 
 
 ---
