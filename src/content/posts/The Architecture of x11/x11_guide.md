@@ -7,7 +7,6 @@ category: "Guide"
 draft: false
 ---
 
-# The Architecture of X11
 
 The `X Window System` (commonly referred to as `X11`) is a widely used display server that enables graphical applications in Unix-like operating systems. It acts as a `middleman` between software (apps) and hardware (GPU, keyboard, mouse), providing the infrastructure to create and manage graphical interfaces.
 
