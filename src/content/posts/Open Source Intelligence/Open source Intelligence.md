@@ -1,5 +1,5 @@
 ---
-title: "Open Source Intelligence"
+title: "The Art of Osint"
 published: 2025-04-18
 image: "./cover.png"
 tags: ["OSINT"]
@@ -43,7 +43,7 @@ Some of the common Filters in the search engines are
 + intext ( where text matches your criteria )
 
 ---
-# IOT Search Engines
+## IOT Search Engines
 We also have search engines that are not meant for websites but rather IOT devices and internet of things . We can search for Servers , Power plants , Industrial control system and so much more with them .
 
 Such search engines are :
