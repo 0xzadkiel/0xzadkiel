@@ -14,20 +14,22 @@ The `X Window System` (commonly referred to as `X11`) is a widely used display s
 > **Note**: Wayland is the modern replacement for X11.
 
 
-### Core Components
+## Core Components
 
 - **X Server**: The program (`Xorg`) that manages hardware (input/output) and renders graphics.
 - **X11 Protocol**: Defines how clients and servers communicate.
 - **X Client**: Requests display services from the X Server (e.g., `xterm`, `gedit`).
 
 
-### Startup Process
+## Startup Process
 
 1. **`systemd`** → Starts the display manager (e.g., `gdm`, `lightdm`).
 2. **Display Manager** → Launches the **X Server**.
 3. **X Server** → Takes control of the GPU (for rendering), keyboard, mouse, and monitors.
 
+
 ---
+
 
 # How X11 Works
 
@@ -43,6 +45,7 @@ The X Server uses `Unix sockets` for local communication and `TCP ports (6000–
 **Security Considerations**
 By default, X11 transmits data `unencrypted`, but it can be secured using protocols like `SSH`.
 
+
 ---
 
 # Why Use X11?
@@ -50,6 +53,7 @@ By default, X11 transmits data `unencrypted`, but it can be secured using protoc
 1. `Less Data Transfer`: Only sends drawing commands (not full screens).
 2. `Efficient`: Lower resource usage compared to other protocols.
 3. `Native to Linux/Unix`: No additional software needed.
+
 
 ---
 
@@ -72,7 +76,7 @@ Here's a Diagram :
 # Trusted vs. Untrusted Mode
 
 
-### 1. Untrusted Mode (`-X`)
+## 1. Untrusted Mode (`-X`)
 When we use `-X` flag the untrusted mode gets enabled and it applies some security restrictions such as 
 + It blocks certain x11 extenshions .
 + It sandboxes the running application
@@ -84,7 +88,7 @@ To enable this on server side we have to set the `ForwardX11Trusted` Variable to
 Some graphical apps may run slower due to these restrictions 
 
 
-### 2. Trusted Mode (`-Y`)
+## 2. Trusted Mode (`-Y`)
 This mode can be enabled using the `-Y` flag with ssh . Now Applications will run without any security restrictions . All x11 extensions are allowed and is equivalent to running the app locally on your machine resulting in better performance
 
 To enable this , on the server side we have to set the `ForwardX11Trusted` Variable to `YES` in `/etc/ssh/sshd_config`
