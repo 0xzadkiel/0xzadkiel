@@ -64,7 +64,7 @@ When you connect via SSH with `-X` or `-Y`:
 5. The final output is rendered on your screen.
 
 Here's a Diagram : 
-![Cover image2](/images/diagram3.png)
+![Cover image2](/images/Diagram3.png)
 
 
 ---
