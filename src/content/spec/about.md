@@ -3,7 +3,6 @@
 My main areas of focus are:
 
 - **Red-Teaming** 🧠   
-- **Network Exploitation** 🌐
 - **Exploit Development** ⚙️ 
  
 
@@ -12,14 +11,10 @@ Here’s a quick rundown of the languages I work with:
 - **C** 🖥️ 
 - **x86-64 Assembly** 🏗️ 
 - **Bash** 🐚 
-- **SQL** 🗃️ 
+- **Python** 🐍 (Currently learning)
 - **RISC-V** 🔧 (currently learning to get a deeper understanding of low-level systems)
- 
-
-Currently learning through hands-on labs, CTFs, and open-source projects.  
-This site is where I document my learning, projects, and thoughts.
 
 
-Feel free to reach out: 
-
+I'm currently learning through hands-on labs, CTFs, and open-source projects.
+This site is where I document my learning and projects.
 
