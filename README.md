@@ -3,14 +3,12 @@ Ola, I’m **Zad𐌊𐌉𐌄𐌋** 👋, a **self-taught Cybersecurity student**
 
 - **Red-Teaming** 🧠
 - **Exploit Development** ⚙️
-- **Network Exploitation** 🌐
 
 Here’s a quick rundown of the languages I work with:
 
 - **C** 🖥️
 - **x86-64 Assembly** 🏗️
-- **Bash** 🐚
-- **SQL** 🗃️
+- **Python** (Currently learning)
 - **RISC-V** 🔧 (currently learning to get  a deeper understanding of low-level systems)
 
 ### Current Goals & Achievements
