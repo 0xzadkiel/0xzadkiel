@@ -29,10 +29,10 @@ You will develop your own priority checklist, what things you should consider ch
 # Automated Tools
  Some of these tools can create `false positives` , So there results should be taken as a grain of salt most of the time and flaged entries should be check `manually`.
 
-+ [Linenum] (https://github.com/rebootuser/LinEnum)
-+ [Linux smart Enum](https://github.com/diego-treitos/linux-smart-enumeration)
-+ [Linpeas] (https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)
-+ [Exploit-Suggester] (https://github.com/The-Z-Labs/linux-exploit-suggester)
++ [Linenum](https://github.com/rebootuser/LinEnum )
++ [Linux smart Enum](https://github.com/diego-treitos/linux-smart-enumeration )
++ [Linpeas](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS )
++ [Exploit-Suggester](https://github.com/The-Z-Labs/linux-exploit-suggester )
 + etc ..
 
 
