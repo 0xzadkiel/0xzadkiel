@@ -10,6 +10,7 @@ draft: false
 
 Enumeration is key in hacking and one of the major factors that differentiates a good hacker from a great hacker. We should not only take time doing enumeration but also be thorough, because missing something can create a cycle of going over everything again, eventually consuming more time and creating stress, so it should be done once and very thoroughly in my opinion.
 
+
 # Why do it manually ?
 Automated tools can do some jobs for us and make the process faster, but knowing how to do it manually provides us with an opportunity to understand the inner workings of the target system. Not to mention that these scripts are extremely noisy.
 
@@ -51,16 +52,16 @@ We will cover these topics below :
 + Interesting files and extensions
 
 
----
 
-### System information
+
+## System information
 Once we are on a system, the first thing we should know about is what version of operating system is being used. We can do this by looking at `/etc/issue` or `/etc/os-release` or utilizing , which is a symbolic link to `/usr/lib/os-release` and, in order to check the kernel version, we can read `/proc/version` or by using `uname` utility.
 
 We should also look for available environment variables by utilizing `env`utility and hostname using the `hostname` utility and lastly, for system uptime, we can utilize the `uptime` utility or by simply looking at `/proc/uptime` and boot time by utilizing `who`. We can also utilize python for this.
 
 ---
 
-### User and groups
+## User and groups
 Users and groups are some of the weakest links in a Linux environment because they are very easy to misconfigure and can be a easy way to privilege escalation. 
 
 To see the available users, we can read the `/etc/passwd` file to see which users are currently logged in. We can utilize the `w` or `who` utilities and to see login history we can use the `lastlog` utility. To see our current user id, we can either read `/etc/passwd` or use the `id` command and lastly, to check if our user holds any sudo privileges, we can use `sudo -l`.
@@ -70,7 +71,7 @@ To list available groups, we can utilize the `getent group groupname` command or
 
 ---
 
-### Network and Ports
+## Network and Ports
 To list available interfaces, we can use `ifconfig`, `ip` or Read files under the `/proc/net` folder for Kernel network stats and `/sys/class/net` for Device attributes. Configuration files are stored in the `/etc/network/` folder.
 
 For hostname mapping `/etc/hosts` is used and for dns servers `/etc/resolv.conf` and lastly, for resolution order `/etc/nsswitch.conf`.
@@ -79,7 +80,7 @@ To see open ports, we can use the `ss` or `netstat` utility as well as `lsof` wi
 
 ---
 
-### Process and Services
+## Process and Services
 We can utilize the `ps` utility to see which processes are running. Not only that, it will show us which command started that process, including the exact time it was started at as well as its pid.
 
 `PID` is a form of unique identity given to a process by the kernel. We can then use this identity to look for further information about it. We don't just have to rely on binary name.
@@ -93,7 +94,7 @@ lsof -p -i -p <pid>
 
 ---
 
-### Installed applications
+## Installed applications
 We can list installed applications utilizing `dpkg` and `apt` utilities or by looking at files under `/usr/bin`,`/usr/bin` and we can always look up directories where other programs, such as `snap` put its binaries in `/snap/bin` and `flatpak`in `/var/lib/flatpak/exports/bin` and user installed flatpak binaries in `~/.local/share/flatpak/exports/bin`. Lastly, `pip` keeps its binaries in `/usr/localbin`, for user `~/.local/bin`, and in available virtual environment directories using find
 
 ```bash
@@ -127,7 +128,7 @@ pip3 list
 
 ---
 
-### Scheduled tasks
+## Scheduled tasks
 There are 2 ways on Linux to schedule a task, either by using the `cron` utility or by setting up `systemd timers`. To see available cronjobs we can look at `/etc/crontab` or utilize the `crontab` utility.
 
 System timers are stored under multiple directories, but we can utilize the `systemctl` utility with the flag `list-timers -all` to look at all of them.
@@ -143,7 +144,7 @@ There’s a useful tool called `pspy` that monitors `/proc` folder in real-ti
 
 ---
 
-### Containers
+## Containers
 Containers are isolated environments and usually container services create groups that the user has to be part of in order to operate them.
 
 If we are not part of the group that a container management system has created, our options are to look at processes by utilizing the `ps` utility, and then we can use `grep` to filter out processes based on names such as `docker|lxc|containerd` or check for sockets they utilize, if they are active that means that the service is running. Or look for `mounted volumes` and `network interfaces` as well as `logs` and lastly `open ports`.
@@ -153,7 +154,7 @@ However, if we are part of one of those groups, we can list running `containers`
 
 ---
 
-### Interesting files and Extenshions
+## Interesting files and Extenshions
 We should always look at interesting files because they can hold alot of valuable information about the environment as well as contain usernames, passwords etc... We can utilize `find` with `grep`,`xargs` to find these files
 
 Example: 
