@@ -18,7 +18,7 @@ Automated tools can do some jobs for us and make the process faster, but knowing
 ---
 
 # The thinking process 
-On Linux, everything is a `file`, and every tool fetches its data from a file somewhere in the file system. When performing enumeration, relying solely on automated tools can be risky they might be flagged, restricted, or simply unavailable. That’s why knowing where tools get their information is crucial. By understanding the Linux file structure and the types of files stored in each directory, we can manually extract the same data that tools display to us. Knowing the Linux file structure helps us in this scenario. Knowing which types of files reside in which folders makes our job easier.
+On Linux, everything is a `file`, and every tool fetches its data from a file somewhere in the `file system`. When performing enumeration, relying solely on automated tools can be risky they might be `flagged`, `restricted`, or simply `unavailable`. That’s why knowing where tools get their information is crucial. By understanding the Linux `file structure` and the types of files stored in each directory, we can manually extract the same data that tools display to us. Knowing the Linux file structure helps us in this scenario. Knowing which types of files reside in which folders makes our job easier.
 
 You'll develop a deeper understanding of Linux internals and become a more effective assessor. Over time, Your `checklist` will shrink as your intuition grows, but `documentation` remains key to thoroughness. The information obtained that might be interesting to us should be `noted` immediately in an organized format so we can make connections between these pieces of information, which is an essential part of enumeration.
 
@@ -64,7 +64,7 @@ We should also look for available `environment variables` by utilizing `env`util
 ## User and groups
 Users and groups are some of the weakest links in a Linux environment because they are very easy to misconfigure and can be a easy way to privilege escalation. 
 
-To see the available users, we can read the `/etc/passwd` file to see which users are currently logged in. We can utilize the `w` or `who` utilities and to see login history we can use the `lastlog` utility. To see our current user `id`, we can either read `/etc/passwd` or use the `id` command and lastly, to check if our user holds any sudo privileges, we can use `sudo -l`.
+To see the available users, we can read the `/etc/passwd` file to see which users are currently `logged in`. We can utilize the `w` or `who` utilities and to see login history we can use the `lastlog` utility. To see our current user `id`, we can either read `/etc/passwd` or use the `id` command and lastly, to check if our user holds any sudo privileges, we can use `sudo -l`.
 
 To list available groups, we can utilize the `getent group groupname` command or read the `/etc/group` file. To see which groups our users are part of we can use the `groups` command.
 
@@ -161,7 +161,7 @@ Example:
 ```bash
 find / -type f  \( -name "*.sh" -o -name "*.py" \) -exec ls -la {} \; 2>/dev/null
 ```
-Above command says " Find every thing under `/` directory with the type of `file` and name ending with `.sh` and `.py` and lastly execute ls-la on the results found and send errors to /dev/null
+Above command says:  Find every thing under `/` directory with the type of `file` and name ending with `.sh` and `.py` and lastly execute ls-la on the results found and send errors to /dev/null.
 
 Some of the extensions that we should look for:
 + `.sh`
